@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'XZCMEDGCBD110W'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "SunLED", "XZCMEDGCBD110W" (!) = "", "XZCMEDGCBD110W", "Other", "", "", "", "", "1.6X1.6MM LC RGB FULL COLOR SMD", "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/921e2c0f8f22089a11c16abc1ce25469.pdf", "0.9 mm"
+END_PART
+
+END.

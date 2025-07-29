@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "XZCMEDGCBD110W"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-10-22-14:20:25)
+    (mountForm default
+        (footprintRef "XZCMEDGCBD110W")
+        (spec "System")
+    )
+)

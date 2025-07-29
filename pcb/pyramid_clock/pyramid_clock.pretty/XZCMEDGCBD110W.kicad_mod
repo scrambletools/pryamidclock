@@ -1,0 +1,236 @@
+(footprint "XZCMEDGCBD110W"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "XZCMEDGCBD110W-4")
+	(tags "LED (Multiple)")
+	(property "Reference" "LED**"
+		(at 0.25 0 0)
+		(layer "F.SilkS")
+		(uuid "eb59d190-4bf3-4f97-ac04-812183db06d4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "XZCMEDGCBD110W"
+		(at 0.25 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2f6c15d6-1a44-4874-b425-496d54c076c6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "61a03572-1489-4585-8208-9d48d94f2680")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00062266-939e-43f6-8391-66861ba5ba3a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d6a7f48-3866-4da8-996a-67b435d7adee")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 1.7 0.6)
+		(end 1.7 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "19f8ffba-c4e3-41c4-a9b4-3797c568159e")
+	)
+	(fp_line
+		(start 1.8 0.6)
+		(end 1.8 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d80bcf86-f5e4-42f6-8d29-67532f3fb457")
+	)
+	(fp_arc
+		(start 1.7 0.6)
+		(mid 1.75 0.55)
+		(end 1.8 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3082b4c2-1cbb-49d3-a73b-f5c5a0c52b90")
+	)
+	(fp_arc
+		(start 1.8 0.6)
+		(mid 1.75 0.65)
+		(end 1.7 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "65efbac2-9d44-436b-8a73-04c80006c99b")
+	)
+	(fp_line
+		(start -2.3 -1.8)
+		(end 2.8 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ee50ed7d-8cb2-46cc-8397-574b6a16596a")
+	)
+	(fp_line
+		(start -2.3 1.8)
+		(end -2.3 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "39315e49-db26-455d-9b14-23cd50acb7d4")
+	)
+	(fp_line
+		(start 2.8 -1.8)
+		(end 2.8 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "287b824d-0a85-4599-aeb3-546ccafb0a52")
+	)
+	(fp_line
+		(start 2.8 1.8)
+		(end -2.3 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5d638009-75d3-4f46-8545-c1e597589ffa")
+	)
+	(fp_line
+		(start -0.8 -0.8)
+		(end 0.8 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ecfcc049-c756-46ab-a0d2-5ae635767a25")
+	)
+	(fp_line
+		(start -0.8 0.8)
+		(end -0.8 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1dd72398-31c5-4cc1-a690-0f3de2c22a92")
+	)
+	(fp_line
+		(start 0.8 -0.8)
+		(end 0.8 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "41a1c62a-fb64-479c-bd7e-36e4052bf115")
+	)
+	(fp_line
+		(start 0.8 0.8)
+		(end -0.8 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e4d29acf-55b4-451e-a0bb-4bd3acb6bc7b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.25 0 0)
+		(layer "F.Fab")
+		(uuid "88962982-68cb-4e73-9ffb-4b6d563bf6de")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.875 0.5 90)
+		(size 0.5 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2faea1fd-57b8-44be-8459-a3dd07799310")
+	)
+	(pad "2" smd rect
+		(at -0.875 0.5 90)
+		(size 0.5 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "43064a5f-1130-478e-8af0-06bb54096427")
+	)
+	(pad "3" smd rect
+		(at -0.875 -0.5 90)
+		(size 0.5 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d015fa5c-7216-41be-807c-3c8bb929dbef")
+	)
+	(pad "4" smd rect
+		(at 0.875 -0.5 90)
+		(size 0.5 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9a243cc0-e9ca-4ff3-97dd-34d3070c3815")
+	)
+	(model "XZCMEDGCBD110W.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

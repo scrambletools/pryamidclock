@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "XZCMEDGCBD110W"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "XZCMEDGCBD110W")
+        (spec "default")
+    )
+)

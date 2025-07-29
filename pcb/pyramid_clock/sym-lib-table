@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "pyramid_clock_library")(type "KiCad")(uri "${KIPRJMOD}/pyramid_clock_library.kicad_sym")(options "")(descr ""))
+  (lib (name "LED1")(type "KiCad")(uri "${KIPRJMOD}/LED.kicad_sym")(options "")(descr ""))
+  (lib (name "MOUDLE-SEEEDUINO-XIAO-ESP32C3")(type "KiCad")(uri "C:/Users/john/Development/pyramid_clock/pcb/Seeeduino xiao ESP32C3 KiCAD Library/MOUDLE-SEEEDUINO-XIAO-ESP32C3.kicad_sym")(options "")(descr ""))
+)

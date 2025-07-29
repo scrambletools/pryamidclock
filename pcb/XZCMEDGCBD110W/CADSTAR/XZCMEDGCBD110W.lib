@@ -1,0 +1,18 @@
+.XZCMEDGCBD110W :1 ;1.6X1.6MM LC RGB FULL COLOR SMD
+XZCMEDGCBD110W
+*STM LED
+*NGS
+*PLB 1="ANODE" 2="CATHODE RED" 3="CATHODE GREEN" 4="CATHODE BLUE"
+*MXP 4
+*DFN XZCMEDGCBD110W
+~!Manufacturer_Name (SunLED)
+~!Manufacturer_Part_Number (XZCMEDGCBD110W)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/921e2c0f8f22089a11c16abc1ce25469.pdf)
+~!Height (0.9mm)
+~!3D_Model (XZCMEDGCBD110W)
+XZCMEDGCBD110W
+1.1!U 2.1!U 3.1!U 4.1!U 

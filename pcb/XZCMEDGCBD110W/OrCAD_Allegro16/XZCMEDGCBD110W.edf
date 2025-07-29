@@ -1,0 +1,118 @@
+
+(EDIF
+  (rename &XZCMEDGCBD110W "XZCMEDGCBD110W")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2025 01 05 07 17 32)
+      (dataOrigin "4534046/1277325/2.50/4/4/LED (Multiple)")
+      (program "SamacSys ECAD Model XZCMEDGCBD110W"
+        (version "1.7"))))
+  (library
+  (rename &XZCMEDGCBD110W "XZCMEDGCBD110W")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &XZCMEDGCBD110W "XZCMEDGCBD110W")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "LED")
+          (property (rename PACKAGENAME "PackageName") (string "XZCMEDGCBD110W"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "XZCMEDGCBD110W"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "SunLED"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "XZCMEDGCBD110W"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string ""))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string ""))
+          (property (rename &Arrow_Part_Number "Arrow Part Number") (string ""))
+          (property (rename &Arrow_Price_Stock "Arrow Price/Stock") (string ""))
+          (property (rename &Description "Description") (string "1.6X1.6MM LC RGB FULL COLOR SMD"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/921e2c0f8f22089a11c16abc1ce25469.pdf"))
+          (property (rename &Height "Height") (string "0.9 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "XZCMEDGCBD110W"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &ANODE "ANODE")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &CATHODE_RED "CATHODE_RED")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &CATHODE_GREEN "CATHODE_GREEN")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (port
+            (rename &CATHODE_BLUE "CATHODE_BLUE")
+            (designator "4")
+            (property (rename ORDER "Order") (string "3") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &ANODE (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 1600 -200) (pt 1800 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt 1800 -200))))
+            )
+            (portImplementation
+              (name &CATHODE_RED (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -200) (pt 0 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -200))))
+            )
+            (portImplementation
+              (name &CATHODE_GREEN (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -100) (pt 0 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -100))))
+            )
+            (portImplementation
+              (name &CATHODE_BLUE (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 1600 -100) (pt 1800 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt 1800 -100))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 1600 0)
+                  (pt 1600 -300)
+                  (pt 0 -300)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 1650 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 1650 30))))
+          )
+        )
+      )
+    )
+  )
+)

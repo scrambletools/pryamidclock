@@ -1,0 +1,9 @@
+Manufacturer=SunLED
+PartNumber=XZCMEDGCBD110W
+PartCategory=LED (Multiple)
+PackageCategory=Other
+PinCount=4
+Version=1.7
+Released=2020-10-22 14:20:25
+Downloaded=2025-01-05 07:17:32
+3D=Y

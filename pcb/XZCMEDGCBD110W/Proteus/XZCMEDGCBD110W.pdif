@@ -1,0 +1,108 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "XZCMEDGCBD110W"
+   (description "1.6X1.6MM LC RGB FULL COLOR SMD")
+   (family "ANA")
+   (package "XZCMEDGCBD110W")
+   (attribute "Datasheet Link" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/921e2c0f8f22089a11c16abc1ce25469.pdf")
+   (attribute "Geometry.Height" "0.9mm")
+   (attribute "Manufacturer_Name" "SunLED")
+   (attribute "Manufacturer_Part_Number" "XZCMEDGCBD110W")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "XZCMEDGCBD110W")
+    (pin "ANODE" 1 PS)
+    (pin "CATHODE_RED" 2 PS)
+    (pin "CATHODE_GREEN" 3 PS)
+    (pin "CATHODE_BLUE" 4 PS)
+   )
+  )
+  (symbol "XZCMEDGCBD110W"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1800 100) (pt 1800 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 2000 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 2000 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "XZCMEDGCBD110W"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -0.8 0.8)
+      (pt 0.8 0.8)
+      (pt 0.8 -0.8)
+      (pt -0.8 -0.8)
+      (pt -0.8 0.8))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.3 1.8)
+      (pt 2.8 1.8)
+      (pt 2.8 -1.8)
+      (pt -2.3 -1.8)
+      (pt -2.3 1.8))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 1.8 -0.6)
+      (arc (pt 1.800 -0.600) (pt 1.700 -0.650) (pt 1.800 -0.550) (start 180.0) (sweep .0))
+      (pt 1.7 -0.6)
+      (arc (pt 1.700 -0.600) (pt 1.700 -0.650) (pt 1.800 -0.550) (start 180.0) (sweep 180.0))
+      (pt 1.8 -0.6))))
+   (leg 1 (pt 0.875 -0.500) (padstack 0))
+   (leg 2 (pt -0.875 -0.500) (padstack 0))
+   (leg 3 (pt -0.875 0.500) (padstack 0))
+   (leg 4 (pt 0.875 0.500) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.500 0.850 0 0 0.000))
+   )
+   (model "XZCMEDGCBD110W.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)
